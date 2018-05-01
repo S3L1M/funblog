@@ -45,11 +45,6 @@ siteView sv body =
            H.div ! A.class_ "container" $ body
            H.div ! A.class_ "blog-footer" $
             do H.p $
-                do H.span "Blog template built for "
-                   H.a ! A.href "http://getbootstrap.com" $ "Bootstrap"
-                   H.span " by "
-                   H.a ! A.href "https://twitter.com/mdo" $ "@mdo"
-               H.p $
                 H.a ! A.href "#" $ "Back to top"
            H.script ! A.href "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" $ mempty
            H.script ! A.href "/js/bootstrap.min.js" $ mempty

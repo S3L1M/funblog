@@ -9,4 +9,5 @@ extra-deps:
   - digestive-functors-0.8.2.0
   - digestive-bootstrap-0.3.0.0
   - digestive-functors-blaze-0.6.1.0
+  - blaze-from-html-0.4.0.1
 resolver: lts-8.12
