@@ -13,7 +13,7 @@ Blog written in Haskell
 ## Install
 
 * From Source (cabal): `git clone https://github.com/S3L1M/haskellblog.git && cd haskellblog && cabal install`
-* From Source (stack): `git clone https://github.com/S3L1Mhaskellblog.git && cd haskellblog && stack build --allow-different-user`
+* From Source (stack): ```git clone https://github.com/S3L1Mhaskellblog.git && cd haskellblog && stack build --allow-different-user```
 
 # About haskellblog
 
@@ -30,6 +30,7 @@ use the web framework [Spock](http://github.com/agrafix/Spock). It
 * Background-Workers
 * Authentication
 * Spock Contexts
+
 
 
 This repository forked from [agrafix](http://github.com/agrafix/funblog)
