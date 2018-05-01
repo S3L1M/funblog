@@ -1,4 +1,4 @@
-funblog
+haskellblog
 =====
 
 [![Build Status](https://travis-ci.org/agrafix/funblog.svg)](https://travis-ci.org/agrafix/funblog)
@@ -9,15 +9,6 @@ funblog
 
 Blog written in Haskell
 
-## Cli Usage: funblog
-
-```sh
-$ funblog --help
-Usage: funblog
-
-Configure using the blog.cfg file
-
-```
 
 ## Install
 
