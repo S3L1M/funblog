@@ -12,10 +12,10 @@ Blog written in Haskell
 
 ## Install
 
-* From Source (cabal): `git clone https://github.com/agrafix/funblog.git && cd funblog && cabal install`
-* From Source (stack): `git clone https://github.com/agrafix/funblog.git && cd funblog && stack build`
+* From Source (cabal): `git clone https://github.com/S3L1M/haskellblog.git && cd haskellblog && cabal install`
+* From Source (stack): `git clone https://github.com/S3L1Mhaskellblog.git && cd haskellblog && stack build --allow-different-user`
 
-# About funblog
+# About haskellblog
 
 This is a simple blog software written in Haskell to demonstrate how to
 use the web framework [Spock](http://github.com/agrafix/Spock). It
@@ -31,25 +31,23 @@ use the web framework [Spock](http://github.com/agrafix/Spock). It
 * Authentication
 * Spock Contexts
 
-This repository also provided the material for my talk at
-[BobKonf 2015 Berlin](http://bobkonf.de/2015/thiemann.html) (German).
+This repository forked from [agrafix](http://github.com/agrafix/funblog)
 
 # Quickstart
 
 1. Clone the github repository
 2. Run `stack install`
 3. Adjust `blog.cfg`
-4. Run `funblog`
-
-Please note that this software is NOT intendet to be used in production (yet?).
+4. Run `stack exec haskellblog-exe --allow-different-user`
 
 ## Misc
 
 ### Supported GHC Versions
 
-* 7.10.2
+* 8.0.2
 
 ### License
 
 Released under the Apache-2.0 license.
 (c) 2014 - 2016 Alexander Thiemann
+(c) 2018 - Present Mohamed Selim, Mostafa Moaaz
