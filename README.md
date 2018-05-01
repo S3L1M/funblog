@@ -31,6 +31,7 @@ use the web framework [Spock](http://github.com/agrafix/Spock). It
 * Authentication
 * Spock Contexts
 
+
 This repository forked from [agrafix](http://github.com/agrafix/funblog)
 
 # Quickstart
@@ -49,5 +50,5 @@ This repository forked from [agrafix](http://github.com/agrafix/funblog)
 ### License
 
 Released under the Apache-2.0 license.
-(c) 2014 - 2016 Alexander Thiemann
-(c) 2018 - Present Mohamed Selim, Mostafa Moaaz
+* (c) 2014 - 2016 Alexander Thiemann
+* (c) 2018 - Present Mohamed Selim, Mostafa Moaaz
