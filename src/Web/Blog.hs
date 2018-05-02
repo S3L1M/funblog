@@ -115,7 +115,7 @@ loginAction =
                   Just userId ->
                       do sid <- runSQL $ createSession userId
                          writeSession (Just sid)
-                         redirect "/"
+                         redirect "/index.html"
                   Nothing ->
                       mkSite' (formView (Just "Invalid login credentials!") view)
 
