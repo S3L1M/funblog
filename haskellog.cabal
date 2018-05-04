@@ -1,8 +1,8 @@
-name:                haskellblog
+name:                haskellog
 version:             0.4.1.1
 synopsis:            Blog written in Haskell
 description:         A simple haskell powerfull blog software powered by spock uses material design lite
-homepage:            https://github.com/S3L1M/haskellblog
+homepage:            https://github.com/S3L1M/haskellog
 license:             Apache-2.0
 license-file:        LICENSE
 author:              Alexander Thiemann <mail@athiemann.net>
@@ -23,7 +23,7 @@ extra-source-files:
     static/fonts/glyphicons-halflings-regular.woff
     static/js/bootstrap.min.js
 
-executable haskellblog-exe
+executable haskellog-exe
   main-is:             Main.hs
   other-modules:
                        Model.CoreTypes
@@ -71,4 +71,4 @@ executable haskellblog-exe
 
 source-repository head
   type:     git
-  location: https://github.com/S3L1M/haskellblog
+  location: https://github.com/S3L1M/haskellog

@@ -1,4 +1,4 @@
-haskellblog
+haskellog
 =====
 
 [![Build Status](https://travis-ci.org/agrafix/funblog.svg)](https://travis-ci.org/agrafix/funblog)
@@ -12,10 +12,10 @@ Blog written in Haskell
 
 ## Install
 
-* From Source (cabal): `git clone https://github.com/S3L1M/haskellblog.git && cd haskellblog && cabal install`
-* From Source (stack): `git clone https://github.com/S3L1Mhaskellblog.git && cd haskellblog && stack build --allow-different-user`
+* From Source (cabal): `git clone https://github.com/S3L1M/haskellog.git && cd haskellog && cabal install`
+* From Source (stack): `git clone https://github.com/S3L1Mhaskellog.git && cd haskellog && stack build --allow-different-user`
 
-# About haskellblog
+# About haskellog
 
 This is a simple blog software written in Haskell to demonstrate how to
 use the web framework [Spock](http://github.com/agrafix/Spock). It
@@ -38,7 +38,7 @@ This repository forked from [agrafix](http://github.com/agrafix/funblog)
 1. Clone the github repository
 2. Run `stack install`
 3. Adjust `blog.cfg`
-4. Run `stack exec haskellblog-exe --allow-different-user`
+4. Run `stack exec haskellog-exe --allow-different-user`
 
 ## Misc
 

@@ -1,3 +1,3 @@
-# Changelog for haskellblog
+# Changelog for haskellog
 
 ## Unreleased changes
