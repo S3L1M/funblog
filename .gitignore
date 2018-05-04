@@ -10,4 +10,4 @@
 *.aux
 *.hp
 .stack-work/
-haskellblog.db*
+haskellog.db*
