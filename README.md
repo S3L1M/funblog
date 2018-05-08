@@ -15,6 +15,8 @@ Blog written in Haskell
 * From Source (cabal): `git clone https://github.com/S3L1M/haskellog.git && cd haskellog && cabal install`
 * From Source (stack): `git clone https://github.com/S3L1Mhaskellog.git && cd haskellog && stack build --allow-different-user`
 
+* For more information: Check the documentation in MORE.md
+
 # About haskellog
 
 This is a simple blog software written in Haskell to demonstrate how to
